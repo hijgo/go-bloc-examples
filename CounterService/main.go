@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/hijgo/go-bloc/bloc"
-	"github.com/hijgo/go-bloc/event"
-	"github.com/hijgo/go-bloc/stream-builder"
 	"net/http"
 	"strconv"
+
+	"github.com/hijgo/go-bloc/bloc"
+	"github.com/hijgo/go-bloc/event"
+	stream_builder "github.com/hijgo/go-bloc/stream-builder"
 )
 
 type CounterEventType uint8
